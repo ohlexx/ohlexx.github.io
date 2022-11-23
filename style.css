@@ -144,19 +144,46 @@ section#contact {
     font-family: 'Lilita One', cursive;
   }
 
-  .socialMedia {
+  .sm {
     text-align: center;
-    font-family: monospace;
+    align-items: center;
   }
 }
 
-/* Pads (3:4) */
-@media (max-width: 2048px),
-(max-height: 1536px) {}
+/* iPads (3:4) */
+@media (max-width: 1980px),
+(max-height: 1484px) {
+  * {
+    zoom: 110%;
+  }
 
-/* Phones (9:16) */
-@media (max-width: 1920),
-(max-height: 1080px) {
+  section#me {
+    height: 900px;
+  }
+
+  section#works {
+    height: 900px;
+  }
+
+  section#contact {
+    height: 900px;
+    font-size: medium;
+    font-family: 'Lilita One', cursive;
+  }
+
+  .sm {
+    text-align: center;
+    align-items: center;
+  }
+
+  .clock {
+    opacity: 100%;
+  }
+}
+
+/* iPhones (9:16) */
+@media (max-width: 1726px),
+(max-height: 1744px) {
   .clock {
     display: none;
   }
