@@ -1,3 +1,6 @@
+alert("In this page, you can not scroll. You have to use navigation bar.");
+
+//clock
 const clock = document.querySelector("h2#clock");
 
 function getClock() {
