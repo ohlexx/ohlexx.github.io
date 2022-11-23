@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "MesloGS NF";
-  src: url("./MesloLGS\ NF\ Regular.ttf") format("truetype");
+  src: url("./Meslo\ GS\ NF\ Regular.ttf") format("truetype");
   font-weight: normal;
 }
 
@@ -20,20 +20,10 @@ body {
   overflow: hidden;
 }
 
-.clock {
-  height: 50%;
-  width: 50%;
-  /* color: linear-gradient(135deg, rgba(106, 96, 255, 1) 0%, rgba(100, 170, 255, 1) 100%); */
-  font-size: 50px;
-  font-family: MesloGS NF;
-
-}
 
 .container {
   width: 100%;
   height: 100%;
-  /*scroll animation*/
-  overflow-y: scroll;
 }
 
 .support {
@@ -70,7 +60,7 @@ body {
   font-size: 20px;
   color: #fff;
 
-  transition: font-size ease .5s;
+  transition: font-size cubic-bezier(0.42, 0.03, 0.34, 1.04) .5s;
 }
 
 .navbar ul li a:hover {
@@ -97,6 +87,13 @@ section h1 {
 }
 
 /* Section Page */
+.clock {
+  height: 150px;
+  width: 50%;
+  font-size: 50px;
+  font-family: MesloGS NF;
+}
+
 section#me {
   color: #fff;
   background: #555;
@@ -118,9 +115,38 @@ section#contact {
 
 /* RESPONSIVE DESIGN */
 
-/* Tablets (10:16) */
-@media (max-width: 2560px),
-(max-height: 1600px) {}
+/* Desktops (10:16) */
+@media (min-width: 2560px),
+(min-height: 1600px) {
+
+  /* 2560x1600을 넘어가면 이렇게 보여짐 */
+  * {
+    zoom: 120%;
+  }
+
+  .navbar {
+    zoom: 110%;
+  }
+
+  section#me {
+    height: 650px;
+  }
+
+  section#works {
+    height: 650px;
+  }
+
+  section#contact {
+    height: 650px;
+    font-size: medium;
+    font-family: 'Lilita One', cursive;
+  }
+
+  .socialMedia {
+    text-align: center;
+    font-family: monospace;
+  }
+}
 
 /* Pads (3:4) */
 @media (max-width: 2048px),
@@ -128,4 +154,8 @@ section#contact {
 
 /* Phones (9:16) */
 @media (max-width: 1920),
-(max-height: 1080px) {}
+(max-height: 1080px) {
+  .clock {
+    display: none;
+  }
+}
