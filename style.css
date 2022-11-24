@@ -148,6 +148,11 @@ section#contact {
     text-align: center;
     align-items: center;
   }
+
+  .clock {
+    opacity: 100%;
+    display: none;
+  }
 }
 
 /* iPads (3:4) */
@@ -178,7 +183,8 @@ section#contact {
   }
 
   .clock {
-    opacity: 100%;
+    opacity: 0%;
+    display: none;
   }
 }
 
