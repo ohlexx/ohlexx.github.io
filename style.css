@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans+KR:wght@400;500;700&family=Nuosu+SIL&family=Poppins:wght@200;300;400;500&display=swap');
-
-@font-face {
-  font-family: "MesloGS NF";
-  src: url("./Meslo\ GS\ NF\ Regular.ttf") format("truetype");
-  font-weight: normal;
-}
-
 * {
   margin: 0;
   padding: 0;
