@@ -55,7 +55,7 @@ body {
   font-size: 20px;
   color: #fff;
 
-  transition: font-size cubic-bezier(0.42, 0.03, 0.34, 1.04) .5s;
+  transition: font-size cubic-bezier(0.42, 0.03, 0.34, 1.04) .3s;
 }
 
 .navbar ul li a:hover {
