@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans+KR:wght@400;500;700&family=Nuosu+SIL&family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Lilita+One&family=Poppins:wght@200;300;400;500&family=Roboto:wght@100;400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #64AAFF;
+  background: #7b7b7b;
   color: #fff;
   height: 100vh;
   line-height: 1.6;
@@ -31,7 +32,7 @@ body {
   display: flex;
   width: 100%;
   height: 60px;
-  background: #555;
+  background: #7b7b7b;
 }
 
 .navbar ul {
@@ -46,7 +47,7 @@ body {
   padding: 1rem;
 }
 
-/*NAVBAR TEXT*/
+/*Navbar Text*/
 .navbar ul li a {
   text-decoration: none;
   text-transform: uppercase;
@@ -65,7 +66,7 @@ body {
   color: #64aaff;
 }
 
-/*SECTION PAGE*/
+/* Section Page */
 section {
   display: flex;
   flex-direction: column;
@@ -81,110 +82,20 @@ section h1 {
   font-size: 4rem;
 }
 
-/* Section Page */
-.clock {
-  height: 150px;
-  width: 50%;
-  font-size: 50px;
-  font-family: MesloGS NF;
-}
-
 section#me {
   color: #fff;
-  background: #555;
+  background: #7b7b7b;
   font-family: 'Poppins', sans-serif;
 }
 
 section#works {
   color: #fff;
-  background: #555;
+  background: #7b7b7b;
   font-family: 'Poppins', sans-serif;
 }
 
 section#contact {
   color: #fff;
-  background: #555;
+  background: #7b7b7b;
   font-family: 'Poppins', sans-serif;
-}
-
-
-/* RESPONSIVE DESIGN */
-
-/* Desktops (10:16) */
-@media (min-width: 2560px),
-(min-height: 1600px) {
-
-  /* 2560x1600을 넘어가면 이렇게 보여짐 */
-  * {
-    zoom: 120%;
-  }
-
-  .navbar {
-    zoom: 110%;
-  }
-
-  section#me {
-    height: 650px;
-  }
-
-  section#works {
-    height: 650px;
-  }
-
-  section#contact {
-    height: 650px;
-    font-size: medium;
-    font-family: 'Lilita One', cursive;
-  }
-
-  .sm {
-    text-align: center;
-    align-items: center;
-  }
-
-  .clock {
-    opacity: 100%;
-    display: none;
-  }
-}
-
-/* iPads (3:4) */
-@media (max-width: 1980px),
-(max-height: 1484px) {
-  * {
-    zoom: 110%;
-  }
-
-  section#me {
-    height: 900px;
-  }
-
-  section#works {
-    height: 900px;
-  }
-
-  section#contact {
-    height: 900px;
-    font-size: medium;
-    font-family: 'Lilita One', cursive;
-  }
-
-  .sm {
-    text-align: center;
-    align-items: center;
-    font-family: 'Lilita One', cursive;
-  }
-
-  .clock {
-    opacity: 0%;
-    display: none;
-  }
-}
-
-/* iPhones (9:16) */
-@media (max-width: 1726px),
-(max-height: 1744px) {
-  .clock {
-    display: none;
-  }
 }
