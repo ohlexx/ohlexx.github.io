@@ -66,9 +66,13 @@ body {
   color: #64aaff;
 }
 
+.sm {
+  all: unset;
+}
+
 .kakaotalk {
   color: #ffe909;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Section Page */
