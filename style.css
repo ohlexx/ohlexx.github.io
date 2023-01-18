@@ -18,7 +18,7 @@ body {
 .container {
   width: 100%;
   height: 100%;
-  overflow: scroll;
+  /*  overflow: scroll; */
 }
 
 .support {
@@ -64,6 +64,11 @@ body {
   font-size: 1.5em;
   font-family: 'Lilita One', cursive;
   color: #64aaff;
+}
+
+.kakaotalk {
+  color: #ffe909;
+  font-family: Poppins;
 }
 
 /* Section Page */
