@@ -66,28 +66,26 @@ body {
   color: #64aaff;
 }
 
-.sm ul {
+.sm {
+  all: unset;
   list-style: none;
+  font-family: 'Poppins', sans-serif;
 }
 
 .kakaotalk {
   color: #ffe909;
-  font-family: 'Poppins', sans-serif;
 }
 
 .github {
   color: #000000;
-  font-family: 'Poppins', sans-serif;
 }
 
 .facebook {
   color: #048af0;
-  font-family: 'Poppins', sans-serif;
 }
 
 .twitter {
   color: #179cf0;
-  font-family: 'Poppins', sans-serif;
 }
 
 /* Section Page */
