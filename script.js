@@ -1,6 +1,17 @@
-const lang = [python, html, css, js, c];
+const langs = ["python", "html", "css", "js", "c"];
 
-const codes = document.querySelector("#codes");
-const showlang = lang[Math.floor(Math.random() * lang.length)];
+const lang = document.getElementById("lang")
+//const showlang = langs[Math.floor(Math.random() * langs.length)];
+let lastShowlang;
 
-codes.innerText = showlang.codes;
+//console.log(showlang);
+
+function getLang() {
+    //getting lang and showing lang
+    const showlang = langs[Math.floor(Math.random() * langs.length)];
+    lang.innerText = showlang;
+    lang.classList = showlang;
+}
+
+getLang()
+setInterval(getLang, 1000);
