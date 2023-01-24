@@ -88,6 +88,26 @@ body {
   color: #179cf0;
 }
 
+.python {
+  color: linear-gradient(135deg, rgba(255, 212, 65, 1) 0%, rgba(52, 118, 171, 1) 100%);
+}
+
+.js {
+  color: linear-gradient(135deg, rgba(50, 50, 48, 1) 0%, rgba(235, 214, 77, 1) 100%);
+}
+
+.html {
+  color: linear-gradient(135deg, rgba(242, 36, 1, 1) 0%, rgba(253, 249, 253, 1) 100%);
+}
+
+.css {
+  color: linear-gradient(135deg, rgba(32, 95, 172, 1) 0%, rgba(245, 243, 244, 1) 100%);
+}
+
+.c {
+  color: linear-gradient(135deg, rgba(57, 72, 167, 1) 0%, rgba(250, 252, 236, 1) 100%);
+}
+
 /* Section Page */
 section {
   display: flex;
